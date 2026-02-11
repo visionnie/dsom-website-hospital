@@ -1,182 +1,182 @@
 export const researchCenters = [
   {
     id: 1,
-    title: '人工智能研究中心',
-    subtitle: 'Artificial Intelligence Research Center',
-    description: '专注于深度学习、机器学习、计算机视觉等前沿AI技术研究',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
-    tags: ['AI', '深度学习', '计算机视觉'],
-    director: '张教授',
-    members: 25,
-    projects: 18,
-    established: '2018年',
-    contact: 'ai@research.edu.cn',
-    address: '科研大楼A座5层',
+    title: '心内科',
+    subtitle: 'Department of Cardiology',
+    description: '专注于心血管疾病的诊断、治疗和预防，拥有先进的心脏介入治疗技术',
+    image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=600&fit=crop',
+    tags: ['心血管', '介入治疗', '心脏康复'],
+    director: '张主任',
+    members: 45,
+    projects: 28,
+    established: '1995年',
+    contact: 'cardiology@zhongshan.hospital',
+    address: '门诊大楼3楼',
     achievements: [
-      '发表SCI论文80余篇',
-      '获得国家级科研项目15项',
-      '培养博士研究生30余名'
+      '年门诊量超过10万人次',
+      '完成心脏介入手术5000余例',
+      '获得省级科技进步奖3项'
     ],
     facilities: [
-      'GPU集群计算中心',
-      '智能机器人实验室',
-      '计算机视觉实验室'
+      '心脏导管室',
+      '心脏超声检查室',
+      '心电监护中心'
     ],
     researchAreas: [
-      '深度学习理论与应用',
-      '计算机视觉与图像处理',
-      '自然语言处理',
-      '智能机器人技术'
+      '冠心病介入治疗',
+      '心律失常诊治',
+      '心力衰竭管理',
+      '高血压防治'
     ]
   },
   {
     id: 2,
-    title: '大数据研究中心',
-    subtitle: 'Big Data Research Center',
-    description: '致力于大数据分析、数据挖掘、云计算等领域的创新研究',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
-    tags: ['大数据', '数据挖掘', '云计算'],
-    director: '李教授',
-    members: 32,
+    title: '神经内科',
+    subtitle: 'Department of Neurology',
+    description: '致力于脑血管疾病、神经退行性疾病等神经系统疾病的诊疗',
+    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop',
+    tags: ['脑血管', '神经疾病', '康复治疗'],
+    director: '李主任',
+    members: 38,
     projects: 22,
-    established: '2016年',
-    contact: 'bigdata@research.edu.cn',
-    address: '科研大楼B座3层',
+    established: '1998年',
+    contact: 'neurology@zhongshan.hospital',
+    address: '门诊大楼4楼',
     achievements: [
-      '完成企业合作项目50余项',
-      '获得省部级奖励10项',
-      '申请发明专利25项'
+      '建立卒中绿色通道',
+      '开展神经康复项目',
+      '参与国家级临床研究项目'
     ],
     facilities: [
-      '大数据分析平台',
-      '云计算实验室',
-      '数据可视化中心'
+      '神经电生理室',
+      '脑血管造影室',
+      '神经康复中心'
     ],
     researchAreas: [
-      '大数据分析与挖掘',
-      '分布式计算',
-      '数据安全与隐私保护',
-      '智能推荐系统'
+      '脑卒中诊治',
+      '帕金森病管理',
+      '癫痫诊疗',
+      '神经系统感染'
     ]
   },
   {
     id: 3,
-    title: '网络安全研究中心',
-    subtitle: 'Cybersecurity Research Center',
-    description: '专注于网络安全、信息安全、区块链等关键技术领域',
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop',
-    tags: ['网络安全', '区块链', '密码学'],
-    director: '王教授',
-    members: 28,
-    projects: 16,
-    established: '2019年',
-    contact: 'security@research.edu.cn',
-    address: '科研大楼C座4层',
+    title: '肿瘤科',
+    subtitle: 'Department of Oncology',
+    description: '专注于各类恶性肿瘤的综合治疗，提供个性化精准医疗方案',
+    image: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=600&fit=crop',
+    tags: ['肿瘤治疗', '靶向治疗', '免疫治疗'],
+    director: '王主任',
+    members: 52,
+    projects: 35,
+    established: '2000年',
+    contact: 'oncology@zhongshan.hospital',
+    address: '肿瘤中心大楼',
     achievements: [
-      '获得国家重点研发计划项目2项',
-      '发表顶级会议论文40余篇',
-      '为政府和企业提供安全咨询服务'
+      '开展精准医疗项目',
+      '引进国际先进治疗技术',
+      '参与多项国际临床试验'
     ],
     facilities: [
-      '网络安全攻防实验室',
-      '区块链技术研究室',
-      '密码学实验室'
+      '放射治疗中心',
+      '化疗中心',
+      '肿瘤生物治疗室'
     ],
     researchAreas: [
-      '网络攻防技术',
-      '区块链与分布式账本',
-      '密码学理论与应用',
-      '信息安全评估'
+      '肿瘤靶向治疗',
+      '免疫治疗',
+      '放射治疗',
+      '肿瘤筛查与预防'
     ]
   },
   {
     id: 4,
-    title: '物联网研究中心',
-    subtitle: 'Internet of Things Research Center',
-    description: '研究物联网架构、传感器网络、边缘计算等核心技术',
-    image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=600&fit=crop',
-    tags: ['物联网', '传感器', '边缘计算'],
-    director: '刘教授',
-    members: 20,
-    projects: 14,
-    established: '2020年',
-    contact: 'iot@research.edu.cn',
-    address: '科研大楼D座2层',
+    title: '骨科',
+    subtitle: 'Department of Orthopedics',
+    description: '提供骨折、关节疾病、脊柱疾病等骨科疾病的专业诊疗服务',
+    image: 'https://images.unsplash.com/photo-1581595220975-119360b2c23f?w=800&h=600&fit=crop',
+    tags: ['骨折治疗', '关节置换', '脊柱外科'],
+    director: '刘主任',
+    members: 42,
+    projects: 25,
+    established: '1996年',
+    contact: 'orthopedics@zhongshan.hospital',
+    address: '外科大楼5楼',
     achievements: [
-      '建立智慧城市示范应用',
-      '获得国家自然科学基金项目8项',
-      '与多家企业建立联合实验室'
+      '年手术量超过3000例',
+      '开展微创关节置换术',
+      '建立运动医学中心'
     ],
     facilities: [
-      '物联网综合实验平台',
-      '传感器技术实验室',
-      '边缘计算测试环境'
+      '关节镜手术室',
+      '脊柱外科手术室',
+      '康复理疗中心'
     ],
     researchAreas: [
-      '物联网系统架构',
-      '无线传感器网络',
-      '边缘计算与雾计算',
-      '智慧城市应用'
+      '关节置换技术',
+      '脊柱微创手术',
+      '运动损伤治疗',
+      '骨质疏松防治'
     ]
   },
   {
     id: 5,
-    title: '量子计算研究中心',
-    subtitle: 'Quantum Computing Research Center',
-    description: '探索量子计算、量子通信、量子算法等前沿科学领域',
-    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop',
-    tags: ['量子计算', '量子通信', '量子算法'],
-    director: '陈教授',
-    members: 15,
-    projects: 8,
-    established: '2021年',
-    contact: 'quantum@research.edu.cn',
-    address: '科研大楼E座6层',
+    title: '妇产科',
+    subtitle: 'Department of Obstetrics and Gynecology',
+    description: '提供孕产妇保健、妇科疾病诊治等全方位女性健康服务',
+    image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&h=600&fit=crop',
+    tags: ['产科', '妇科', '生殖医学'],
+    director: '陈主任',
+    members: 48,
+    projects: 30,
+    established: '1994年',
+    contact: 'obgyn@zhongshan.hospital',
+    address: '妇产科大楼',
     achievements: [
-      '在国际顶级期刊发表论文20余篇',
-      '获得国家杰出青年基金',
-      '参与国家量子信息重大专项'
+      '年分娩量超过5000例',
+      '开展无痛分娩服务',
+      '建立生殖医学中心'
     ],
     facilities: [
-      '量子计算模拟实验室',
-      '量子光学实验室',
-      '超导量子计算平台'
+      '产房',
+      '新生儿监护室',
+      '生殖医学实验室'
     ],
     researchAreas: [
-      '量子计算理论',
-      '量子算法设计',
-      '量子通信协议',
-      '量子密码学'
+      '高危妊娠管理',
+      '妇科肿瘤治疗',
+      '辅助生殖技术',
+      '妇女保健'
     ]
   },
   {
     id: 6,
-    title: '生物信息学研究中心',
-    subtitle: 'Bioinformatics Research Center',
-    description: '结合生物学与计算机科学，进行基因组学、蛋白质组学研究',
-    image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=600&fit=crop',
-    tags: ['生物信息', '基因组学', '医疗AI'],
-    director: '赵教授',
-    members: 22,
-    projects: 12,
-    established: '2017年',
-    contact: 'bioinfo@research.edu.cn',
-    address: '科研大楼F座3层',
+    title: '儿科',
+    subtitle: 'Department of Pediatrics',
+    description: '专注于儿童疾病的诊疗，提供儿童生长发育评估和健康管理',
+    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop',
+    tags: ['儿科', '新生儿', '儿童保健'],
+    director: '赵主任',
+    members: 55,
+    projects: 32,
+    established: '1993年',
+    contact: 'pediatrics@zhongshan.hospital',
+    address: '儿科大楼',
     achievements: [
-      '完成人类基因组分析项目多项',
-      '开发生物信息分析软件10余款',
-      '与医院合作开展精准医疗研究'
+      '建立儿童重症监护室',
+      '开展儿童康复项目',
+      '获得儿童友好医院称号'
     ],
     facilities: [
-      '高通量测序数据分析平台',
-      '蛋白质结构预测实验室',
-      '医疗大数据中心'
+      '儿童重症监护室',
+      '新生儿病房',
+      '儿童康复中心'
     ],
     researchAreas: [
-      '基因组学与转录组学',
-      '蛋白质结构与功能预测',
-      '精准医疗与个性化治疗',
-      '药物设计与筛选'
+      '新生儿疾病',
+      '儿童呼吸系统疾病',
+      '儿童生长发育',
+      '儿童营养与保健'
     ]
   }
 ]

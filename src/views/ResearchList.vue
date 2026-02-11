@@ -2,8 +2,8 @@
   <div class="research-list">
     <header class="header">
       <div class="header-content">
-        <h1>研究中心</h1>
-        <p class="subtitle">Research Centers</p>
+        <h1>中山医院</h1>
+        <p class="subtitle">Zhongshan Hospital</p>
       </div>
     </header>
 
@@ -35,17 +35,6 @@
             </div>
 
             <div class="card-footer">
-              <div class="card-stats">
-                <div class="stat">
-                  <span class="stat-label">成员</span>
-                  <span class="stat-value">{{ center.members }}</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-label">项目</span>
-                  <span class="stat-value">{{ center.projects }}</span>
-                </div>
-              </div>
-
               <button
                 class="view-btn"
                 @click="goToDetail(center.id)"
@@ -196,33 +185,10 @@ const goToDetail = (id) => {
 
 .card-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 16px;
   border-top: 1px solid #e2e8f0;
-}
-
-.card-stats {
-  display: flex;
-  gap: 24px;
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.stat-label {
-  font-size: 12px;
-  color: #a0aec0;
-  margin-bottom: 4px;
-}
-
-.stat-value {
-  font-size: 20px;
-  font-weight: 700;
-  color: #667eea;
 }
 
 .view-btn {
@@ -254,12 +220,6 @@ const goToDetail = (id) => {
 
   .header-content h1 {
     font-size: 32px;
-  }
-
-  .card-footer {
-    flex-direction: column;
-    gap: 16px;
-    align-items: stretch;
   }
 
   .view-btn {

@@ -1,62 +1,67 @@
 export const researchCenters = [
   {
     id: 1,
-    title: '人工智能研究中心',
-    subtitle: 'Artificial Intelligence Research Center',
-    description: '专注于深度学习、机器学习、计算机视觉等前沿AI技术研究',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
-    tags: ['AI', '深度学习', '计算机视觉'],
-    director: '张教授',
-    members: 25,
-    projects: 18,
-    established: '2018年',
-    contact: 'ai@research.edu.cn',
-    address: '科研大楼A座5层',
+    title: '复旦大学附属中山医院胰腺肿瘤中心',
+    subtitle: 'Pancreatic Tumor Center of Zhongshan Hospital',
+    description: '复旦大学附属中山医院胰腺外科是中国最早开展胰十二指肠切除手术的大型医疗中心之一。',
+    image: '/images/1.jpg',
+    tags: ['胰腺肿瘤', '胰腺外科', '临床研究'],
+    director: '王文权教授',
+    members: 8,
+    projects: 15,
+    established: '1990年',
+    contact: 'pancreatic@zs-hospital.sh.cn',
+    address: '中山医院胰腺外科',
     achievements: [
-      '发表SCI论文80余篇',
-      '获得国家级科研项目15项',
-      '培养博士研究生30余名'
+      '由胰腺外科副主任王文权教授领衔',
+      '汇集4位博士研究生（包括1位临床研究专科博士）',
+      '拥有4位硕士研究生'
     ],
     facilities: [
-      'GPU集群计算中心',
-      '智能机器人实验室',
-      '计算机视觉实验室'
+      '胰腺外科手术室',
+      '微创治疗中心',
+      '术后康复中心'
     ],
     researchAreas: [
-      '深度学习理论与应用',
-      '计算机视觉与图像处理',
-      '自然语言处理',
-      '智能机器人技术'
+      '胰腺肿瘤的早期诊断与治疗',
+      '胰十二指肠切除术的临床研究',
+      '胰腺外科微创技术',
+      '胰腺肿瘤的综合治疗方案'
     ]
   },
   {
     id: 2,
-    title: '大数据研究中心',
-    subtitle: 'Big Data Research Center',
-    description: '致力于大数据分析、数据挖掘、云计算等领域的创新研究',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
-    tags: ['大数据', '数据挖掘', '云计算'],
-    director: '李教授',
-    members: 32,
-    projects: 22,
-    established: '2016年',
-    contact: 'bigdata@research.edu.cn',
-    address: '科研大楼B座3层',
+    title: '复旦中山胰腺外科临床研究中心',
+    subtitle: 'Pancreatic Surgery Clinical Research Center',
+    description: '复旦大学附属中山医院 胰腺肿瘤中心 临床研究团队',
+    image: '/images/2.jpg',
+    tags: ['胰腺外科', '临床研究', '胰腺肿瘤'],
+    director: '王文权教授',
+    members: 19,
+    projects: 20,
+    established: '2010年',
+    contact: 'clinical@zs-hospital.sh.cn',
+    address: '中山医院胰腺外科',
     achievements: [
-      '完成企业合作项目50余项',
-      '获得省部级奖励10项',
-      '申请发明专利25项'
+      '学术指导：靳大勇、楼文晖',
+      '科主任：刘亮',
+      '负责人：王文权',
+      '团队成员：刘琛琛、许耀麟、刘璐、甘伟、周强、张跃铭、韩序、徐嘉艺',
+      '科研助理：栗钰、张海燕、拱嘉艺、郝淑霞、王于众、张宇宁',
+      '由胰腺外科副主任王文权教授领衔',
+      '汇集4位博士研究生（包括1位临床研究专科博士）、4位硕士研究生'
     ],
     facilities: [
-      '大数据分析平台',
-      '云计算实验室',
-      '数据可视化中心'
+      '临床研究实验室',
+      '胰腺外科手术中心',
+      '术后随访中心'
     ],
     researchAreas: [
-      '大数据分析与挖掘',
-      '分布式计算',
-      '数据安全与隐私保护',
-      '智能推荐系统'
+      '胰腺肿瘤临床诊疗规范研究',
+      '胰腺外科手术技术创新',
+      '胰腺肿瘤术后康复研究',
+      '胰腺疾病多学科综合治疗（MDT）',
+      '胰腺肿瘤转化医学研究'
     ]
   },
   {

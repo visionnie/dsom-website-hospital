@@ -2,7 +2,7 @@
   <div class="research-list">
     <header class="header">
       <div class="header-content">
-        <h1>研究中心</h1>
+        <h1>中山医院</h1>
         <p class="subtitle">Research Centers</p>
       </div>
     </header>
@@ -24,35 +24,12 @@
             <p class="card-subtitle">{{ center.subtitle }}</p>
             <p class="card-description">{{ center.description }}</p>
 
-            <div class="card-tags">
-              <span
-                v-for="(tag, index) in center.tags"
-                :key="index"
-                class="tag"
-              >
-                {{ tag }}
-              </span>
-            </div>
-
-            <div class="card-footer">
-              <div class="card-stats">
-                <div class="stat">
-                  <span class="stat-label">成员</span>
-                  <span class="stat-value">{{ center.members }}</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-label">项目</span>
-                  <span class="stat-value">{{ center.projects }}</span>
-                </div>
-              </div>
-
-              <button
-                class="view-btn"
-                @click="goToDetail(center.id)"
-              >
-                点击查看
-              </button>
-            </div>
+            <button
+              class="view-btn"
+              @click="goToDetail(center.id)"
+            >
+              点击查看
+            </button>
           </div>
         </div>
       </div>
@@ -175,67 +152,21 @@ const goToDetail = (id) => {
   font-size: 15px;
   color: #4a5568;
   line-height: 1.6;
-  margin-bottom: 16px;
-}
-
-.card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-
-.tag {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 500;
-}
-
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 16px;
-  border-top: 1px solid #e2e8f0;
-}
-
-.card-stats {
-  display: flex;
-  gap: 24px;
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.stat-label {
-  font-size: 12px;
-  color: #a0aec0;
-  margin-bottom: 4px;
-}
-
-.stat-value {
-  font-size: 20px;
-  font-weight: 700;
-  color: #667eea;
+  margin-bottom: 24px;
 }
 
 .view-btn {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border: none;
-  padding: 12px 28px;
+  padding: 14px 28px;
   border-radius: 25px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  width: 100%;
 }
 
 .view-btn:hover {
@@ -254,16 +185,6 @@ const goToDetail = (id) => {
 
   .header-content h1 {
     font-size: 32px;
-  }
-
-  .card-footer {
-    flex-direction: column;
-    gap: 16px;
-    align-items: stretch;
-  }
-
-  .view-btn {
-    width: 100%;
   }
 }
 </style>
